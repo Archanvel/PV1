@@ -18,7 +18,7 @@ class Student extends User{
     getCourse(){
         var fullyear = 2021;
         var course = fullyear - this.year;
-        if (course > 1){
+        if (course >= 1 && course <= 5){
             return(course);
         }
         else{
