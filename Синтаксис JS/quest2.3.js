@@ -1,13 +1,16 @@
-var a = 5,b = 12,c = 4,min,max;
-if (a<b && a<c)
-min = a;
-else if (b<a || b<c)
-min = b;
-else min=c;
-alert(min);
-if (a>b && a>c)
-max=a;
-else if (b>a || b>c)
-max=b;
-else max=c;
-alert(max);
+let min,max;
+let a = prompt("Введите a: ");
+let b = prompt("Введите b: ");
+let c = prompt("Введите с: ");
+
+if (a > b)   max = a;
+else         max = b;
+if (c > max) max = c;
+console.log ("Максимальное число: ", max);
+
+if (a < b)   min = a;
+else         min = b;
+if (c < min) min = c;
+console.log ("Минимальное число: ", min);
+
+  

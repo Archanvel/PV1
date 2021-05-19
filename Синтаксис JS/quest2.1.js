@@ -1,33 +1,36 @@
-var n = 7;
+var n = prompt("Введите n: ");
+
+if( n => 0 && n <= 9){
 switch( n ){
     case 0:
-    alert( "Ноль" );
+    console.log( "Ноль" );
     break;
     case 1:
-    alert( "Один" );
+    console.log( "Один" );
     break;
     case 2:
-    alert( "Два" );
+    console.log( "Два" );
     break;
     case 3:
-    alert( "Три" );
+    console.log( "Три" );
     break;
     case 4:
-    alert( "Четыре" );
+    console.log( "Четыре" );
     break;
     case 5:
-    alert( "Пять" );
+    console.log( "Пять" );
     break;
     case 6:
-    alert( "Шесть" );
+    console.log( "Шесть" );
     break;
     case 7:
-    alert( "Семь" );
+    console.log( "Семь" );
     break;
     case 8:
-    alert( "Восемь" );
+    console.log( "Восемь" );
     break;
     case 9:
-    alert( "Девять" );
+    console.log( "Девять" );
     break;
+}
 }
