@@ -1,4 +1,4 @@
-var n = prompt("Введите n: ");
+let n = prompt("Введите n: ");
 
 if( n => 0 && n <= 9){
 switch( n ){
